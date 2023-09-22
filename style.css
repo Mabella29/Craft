@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url('');
+}
