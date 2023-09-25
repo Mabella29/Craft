@@ -42,7 +42,8 @@ h1 {
 
 .content2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
     margin-top: 150px;
 }
 
@@ -54,8 +55,125 @@ h1 {
     
 }
 
-.content2 p{
+.content2 p {
     color: rgb(191, 147, 65);
     font-size: 1.2rem;
     font-family: "DM sans", sans-serif;
+}
+
+.section2 {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;  
+    margin-top: 100px;
+    color: #192732;
+}
+
+.content3 h4 {
+    font-size: 4.5rem;
+    font-family: cursive, Verdana;
+    
+}
+
+.content3 p {
+    font-size: 1.2rem;
+    padding-left: 60px;
+}
+
+.btn {
+    font-size: 1.3rem;
+    color: #ffffff;
+    background-color: #b84358;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image1{
+    padding-left: 300px;
+}
+
+.image2 {
+    padding-right: 70px;
+}
+
+.section3 {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.content4 {
+    color: #192732;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 100px;
+    justify-content: space-around;
+    
+}
+
+.content4 h4 {
+    font-size: 4.5rem;
+    font-family: cursive, 'Tapestry'; 
+    line-height: 1; 
+}
+
+.content4 p {
+    font-size: 1.2rem;
+    padding-left: 120px;
+    
+}
+
+.image4 {
+    margin-top: 100px;
+}
+
+.btn2 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    background-color: #b84358;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.content5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 150px;
+}
+
+.content5 h1 {
+    color: rgb(191, 147, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.content5 p {
+    color: rgb(191, 147, 65);
+    font-size: 1.2rem;
+    font-family: "DM sans", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+    
 }
