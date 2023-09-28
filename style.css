@@ -65,7 +65,7 @@ h1 {
     background-color: gainsboro;
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 200px;
     
 }
 
@@ -172,6 +172,121 @@ h1 {
     color: rgb(191, 147, 65);
     font-size: 1.2rem;
     font-family: "DM sans", sans-serif;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    color: #192732;
+    background-color: gainsboro;
+}
+
+.image5 {
+    margin-top: 120px;
+    padding-left: 270px;
+}
+
+.content6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 260px;
+}
+
+.content6 h4 {
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    line-height: 0.9;
+}
+
+.content6 p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.btn3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    background-color: #b84358;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #192732;
+    background-color: gainsboro;
+}
+
+.content7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 300px;
+    margin-bottom: 100px;
+}
+
+.content7 h4 {
+    font-size: 3.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+}
+
+.content7 p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.image6 {
+    margin-right: 220px;
+    margin-top: 120px;
+}
+
+.btn4 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    background-color: #b84358;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.content8 {
+    text-align: center;
+    color: rgb(191, 147, 65);
+}
+
+.content8 h5 {
+    text-align: center;
+    font-size: 7rem;
+    margin-top: 50px;
+    line-height: 1;
+}
+
+.content8 img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.content8 h6 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.content8 p {
+    margin-top: 40px;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1200px) {
