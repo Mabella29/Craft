@@ -9,9 +9,6 @@ body {
     background-color: rgb(26, 34, 41);
 }
 
-.S1 {
-    
-}
 
 .nav-bar {
     display: flex;
@@ -101,6 +98,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
 
 .image1{
@@ -311,5 +309,74 @@ h1 {
  }
 
 @media screen and (max-width: 1200px) {
+  .logo {
+     padding-right: 150px;
+     height: 60px;
+  }
+  .message {
+    display: none;
+  }  
+
+  .hamburger {
+    margin-top: 40px;
+  }
+
+  .content1 h1 {
+    color: rgb(191, 147, 65);
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+  }
+
+  .content1 img {
+    display: none;
+  }
+ 
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+
+  .content2 h1 {
+    font-size: 1.5rem;
+  }
+
+  .content2 p {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  .section2 {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .btn {
+    width: 300px;
+    border-radius: 20px;
+  }
+
+  .content3 {
+    padding-left: 30px;
+  }
+
+  .content3 h4 {
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content3 p {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+
+  .image2 {
+    margin-top: 30px;
+    width: 100vw;
+  }
+
+  
 }
