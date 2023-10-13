@@ -102,11 +102,15 @@ h1 {
 }
 
 .image1{
-    padding-left: 300px;
+    padding-left: 430px;
+    width: 49vw;
+    height: 16vh;
 }
 
 .image2 {
     padding-right: 70px;
+    height: 60vh;
+    width: 50vw;
 }
 
 .section3 {
@@ -142,15 +146,7 @@ h1 {
     margin-top: 100px;
 }
 
-.btn2 {
-    font-size: 1.3rem;
-    color: #ffffff;
-    background-color: #b84358;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    margin-top: 50px;
-}
+
 
 .content5 {
     display: flex;
@@ -205,15 +201,8 @@ h1 {
     margin-top: 20px;
 }
 
-.btn3 {
-    font-size: 1.3rem;
-    color: #ffffff;
-    background-color: #b84358;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    margin-top: 50px;
-}
+
+
 
 .section5 {
     display: flex;
@@ -248,15 +237,7 @@ h1 {
     margin-top: 120px;
 }
 
-.btn4 {
-    font-size: 1.3rem;
-    color: #ffffff;
-    background-color: #b84358;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    margin-top: 50px;
-}
+
 
 .content8 {
     text-align: center;
@@ -373,10 +354,118 @@ h1 {
     padding-left: 0px;
   }
 
+  .images {
+    margin-top: 100px;
+  }
+
+  .image1{
+    width: 30vw;
+    height: 30vh;
+  }
+
   .image2 {
     margin-top: 30px;
     width: 100vw;
+    height: 45vh;
   }
 
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+  }
+  .content4 p {
+    font-size: 1rem;
+  }
+  .content4 h4 {
+    font-size: 1.5rem;
+  }
   
+  
+
+  .image3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 45vh;
+  }
+
+  .content5{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content5 h1 {
+    font-size: 1.7rem;
+  }
+
+  .content5 p {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+
+  .section4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content6 {
+    align-items: center;
+    margin-left: 200px;
+    width: 100%;
+  }
+  .content6 h4 {
+    font-size: 1.7rem;
+  }
+  .content6 p {
+    font-size: 1rem;
+  }
+  .image5 {
+    display: flex;
+    margin-right: 280px;;
+    width: 150vw;
+    height: 45vh;
+  }
+
+  .section5 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .content7 {
+    width: 100%;
+    padding: 20px;
+  }
+  .content7 h4 {
+    font-size: 1.7rem;
+  }
+
+  .content7 p {
+    font-size: 1rem;
+  }
+  .image6 {
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row-reverse;
+  }
+
+  .content8 h5 {
+    font-size: 1.7rem;
+  }
+
+  .content8 h6 {
+    font-size: 1.4rem;
+  }
+
+  .content8 p {
+    font-size: 1rem;
+  }
 }
